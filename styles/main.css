@@ -1,0 +1,567 @@
+/*      COMMON FEATURES      */
+
+main {
+    position: relative;
+}
+
+section {
+    position: relative;
+}
+
+.section-background {
+    /* object-fit: contain; */
+    margin: auto;
+    width: 100% - 194px;
+    overflow: hidden;
+}
+
+.section-title {
+    position: absolute;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    font-weight: 400;
+}
+
+
+/*      MAIN PAGE      */
+
+
+#mainpage-img {
+    /* object-fit: contain; */
+  /* width: 100%; */
+  height: 100%;
+}
+
+.mainpage__title-block {
+    position: absolute;
+    top: 34.375%;
+    left: 29.474%;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: left;
+    
+    color: #FFE166;
+}
+
+h3 {
+    font-weight: 400;
+    text-align: left;
+
+    color: #EB7101;
+}
+
+#plate {
+    visibility: hidden;
+}
+
+.mainpage__plate {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: rotate(-9.29deg);
+
+    width: 36.34232121922626%;
+    height: 64.58333333333333%;
+}
+
+@keyframes plate{
+    0% {
+        top: 100%;
+    }
+
+    100% {
+        top: 60%;
+    }
+}
+
+
+/*     SLIDER      */
+
+.cards {
+    position: absolute;
+    top: 7.639979068550497%;
+    height: 44.13833528722157%;
+
+    max-width: 1706px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 120%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: #AF4C1C;
+    width: 70%;
+}
+
+.card-title span {
+    color: #85360F;
+}
+
+.cards__slider-line__card p {
+    font-weight: 400;
+
+    display: block;
+    /* padding-left: 5%; */
+    margin-top: auto;
+    margin-bottom: auto;
+
+    color: #865031;
+}
+
+.cards__slider-line__card img {    
+    height: 100%;
+    width: 55%;
+}
+
+#card-2 img {
+    width: 55%;
+}
+
+#card-3 img {
+    width: 60%;
+    margin-right: 6%;
+}
+
+.cards__slider {
+    width: 90%;
+    padding-left: 6%;
+    overflow: hidden;
+}
+/* 
+.cards__slider-line {
+} */
+
+#card-3 img {
+    background: url('../assets/img/card-img-3.svg') no-repeat;
+    background-size: auto 100%;
+    background-position: 100% 50%;
+}
+
+#card-3-upper {
+    /* position: absolute; */
+    height: 10%;
+    top: 0;
+    right: 0;
+}
+
+#card-3-lower {
+    /* position: absolute; */
+    height: 10%;
+    bottom: 0;
+    right: 0;
+}
+
+.cards__slider-line__card {
+    display: flex;
+}
+
+.cards__slider-line__card:nth-child(2) {
+    display: none;
+}
+
+.cards__slider-line__card:nth-child(3) {
+    display: none;
+}
+
+/* .cards__slider-line {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}  */
+
+.button-prev {
+    position: absolute;
+    left: 2%;
+    width: 10%;
+    border: none; 
+    outline: none;
+    background: none;
+}
+
+.button-next {
+    position: absolute;
+    right: 0%;
+    width: 10%;
+    border: none; 
+    outline: none;
+    background: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+/* .camp__point {
+    position: absolute;
+    opacity: 70%;
+
+    animation: pulse 2s infinite linear;
+} */
+
+.camp__point {
+    position: absolute;
+    background: rgba(105, 53, 26, 0.6);
+    height: 5.39%;
+    border-radius: 50%;
+    overflow: hidden;
+    transition-duration: 0.2s;
+    animation: pulse 2s infinite linear;
+
+    /*cross-browser*/
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+.camp__point img {
+    height: 100%;
+    opacity: 60%;
+    transition-duration: 0.2s;
+    
+    border-radius: 50%;
+}
+
+.camp__point:hover {
+    cursor: pointer;
+    background: rgba(105, 53, 26, 0.8);
+}
+
+.camp__point:hover img {
+    opacity: 80%;
+}
+
+@keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    25% {
+        -webkit-transform: scale(1.1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+    }
+    75% {
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+  }
+
+#expedition {
+    top: 65.35845107273679%;
+    left: 13.77491207502931%;
+}
+#farm {
+    top: 87.44113029827316%;
+    right: 53.39976553341149%;
+}
+#mastershop {
+    top: 71.89952904238619%;
+    right: 42.73153575615475%;
+}
+#watchtower {
+    top: 78.44060701203558%;
+    right: 28.31184056271981%;
+}
+#sawmill {
+    top: 70.95761381475667%;
+    right: 8.030480656506448%;
+}
+#house {
+    top: 93.14495028780743%;
+    right: 26.61195779601407%;
+}
+
+.camp__point-info {
+    position: absolute;
+    height: 15.27995813710099%;
+    width: 18.75732708089097%;
+    display: none;
+    padding: 1%;
+    
+
+    background-color: rgba(126, 89, 49, 0.75);
+
+    border-radius: 14.375%;
+}
+
+.camp__point-info__title {
+    font-weight: 400;
+    text-align: center;
+
+    color: #FFE166;
+
+}
+
+.camp__point-info__text {
+    font-weight: 400;
+
+    padding-top: 5%;
+
+    color: #382419;
+}
+
+@keyframes showing {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes disappearing {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#expedition-info {
+    top: 65.35845107273679%;
+    left: 13.77491207502931%;
+}
+#farm-info {
+    top: 87.44113029827316%;
+    right: 53.39976553341149%;
+}
+#mastershop-info {
+    top: 71.89952904238619%;
+    right: 42.73153575615475%;
+}
+#watchtower-info {
+    top: 78.44060701203558%;
+    right: 28.31184056271981%;
+}
+#sawmill-info {
+    top: 70.95761381475667%;
+    right: 8.030480656506448%;
+}
+#house-info {
+    top: 93.14495028780743%;
+    right: 26.61195779601407%;
+}
+
+/*     CAMP SECTION      */
+
+.camp__title {
+    top: 54.3694400837258%;
+
+    color: #FFE166;
+}
+
+
+/*     NFTS SECTION      */
+
+.nfts__title {
+    top: 16.45833333333333%;
+
+    color: #FFE166;
+}
+
+.nfts img {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.nfts__paper {
+    position: absolute;
+
+    top: 12.1875%;
+    height: 78.75%;
+}
+
+.nfts__character {
+    position: absolute;
+
+    top: 22.91666666666667%;
+    height: 60.21%;
+}
+
+
+/*     TOKENOMICS SECTION      */
+
+.tokenomics__map {
+    position: absolute;
+    top: 19.51219512195122%;
+    height: 68.42105263157895%;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.tokenomics__title {
+    top: 9.170731707317073%;
+
+    color: #69351A;
+}
+
+/*     ROADMAP SECTION      */
+
+.roadmap__title {
+    top: 8.272058823529412%;
+    padding-left: 3%;
+
+    color: #FF9863;
+}
+
+.roadmap__phase {
+    position: absolute;
+    width: 31%;
+    height: 18%;
+}
+
+.roadmap__phase img{
+    position: absolute;
+    object-fit: contain;
+    margin: auto;
+}
+
+.roadmap__phase {
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.roadmap__phase.element-show {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.roadmap__phase.element-show {
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+
+#phase-1 {
+    top: 2%;
+    left: 6%;
+}
+#phase-1 .roadmap__phase__title {
+    top: 16%;
+    left: 40%;
+}
+#phase-1 .roadmap__phase__text {
+    top: 28%;
+    left: 20%;
+}
+
+
+#phase-2 {
+    top: 12%;
+    left: 68%;
+}
+#phase-2 .roadmap__phase__title {
+    top: 12%;
+    left: 32%;
+}
+#phase-2 .roadmap__phase__text {
+    top: 24%;
+    left: 10%;
+}
+
+#phase-3 {
+    top: 28%;
+    left: 6%;
+}
+#phase-3 .roadmap__phase__title {
+    top: 13%;
+    left: 40%;
+}
+#phase-3 .roadmap__phase__text {
+    top: 28%;
+    left: 15%;
+}
+
+#phase-4 {
+    top: 35%;
+    left: 65%;
+}
+#phase-4 .roadmap__phase__title {
+    top: 12%;
+    left: 32%;
+}
+#phase-4 .roadmap__phase__text {
+    top: 24%;
+    left: 10%;
+}
+
+.roadmap__phase__title {
+    position: absolute;
+
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 6px;
+    color: #D55900;
+}
+
+.roadmap__phase__text {
+    position: absolute;
+
+    font-weight: 400;
+    text-align: left;
+    
+    margin: 0;
+
+    color: #AD6800;
+}
+
+
+/*     FRAME      */
+
+.frame {
+    position: absolute;
+    width: 100%;
+    /* padding: 0 1%; */
+    height: 100%;
+    
+    display: block;
+    top: 0;
+    bottom: 0;
+}
+
+#frame-1 {
+    height: 28.43332385555871%;
+    width: 100%;
+}
+
+#frame-2 {
+    height: 28.43332385555871%;
+    width: 100%;
+}
+
+#frame-3 {
+    height: 28.43332385555871%;
+    width: 100%;
+}
+
+#frame-4 {
+    height: 14.70002843332386%;
+    width: 100%;
+}

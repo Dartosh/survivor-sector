@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/font-import.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header-footer.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/z-indexes.css">
+    <title>Survivor sector</title>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <h1>
+                <a href="#mainpage"><img src="./assets/logo/logo.svg" alt="logo"></a>
+            </h1>
+            <nav>
+                <ul id="nav">
+                    <li class="nav-link">
+                        <a href="#camp">about</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#tokenomics">tokenomics</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#roadmap">roadmap</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#contact-us">contact us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#nfts">whitepaper</a>
+                    </li>
+                </ul>
+            </nav>
+            <button id="pop-up-button" onclick="openNav"><img src="./assets/img/pop-up-botton.png" alt="pop-up" id="pop-up-button-img"></button>
+            <div class="contacts" id="contacts-header">
+                <ul>
+                    <li>
+                        <img src="./assets/logo/discord.svg" alt="discord">
+                    </li>
+                    <li>
+                        <img src="./assets/logo/twitter.svg" alt="twitter">
+                    </li>
+                    <li>
+                        <img src="./assets/logo/telegram.svg" alt="telegram">
+                    </li>
+                    <li>
+                        <img src="./assets/logo/atomichub.svg" alt="atomichub">
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main id="main">
+            <section class="mainpage" id="mainpage">
+                <img 
+                    src="./assets/background/main-background.png"
+                    id="mainpage-img"
+                    alt="mainpage">
+                <div class="mainpage__title-block">
+                    <h2>survivor sector</h2>
+                    <h3>try to survive at any cost</h3>
+                </div>
+                <img src="./assets/img/plate.svg" alt="plate" class="mainpage__plate">
+                
+            </section>
+            <section class="camp" id="camp">
+                <img 
+                    src="./assets/background/camp-background.png"
+                    class="section-background"
+                    id="camp-img"
+                    alt="camp">
+                <div class="cards">
+                    <button class="button-prev" onclick="prevCard()" id="prevButton"><img src="./assets/img/point-back.svg" alt="left"></button>
+                    <div class="cards__slider">
+                        <div class="cards__slider-line">
+                            <div class="cards__slider-line__card" id="card-1">
+                                <p>
+                                    <br><br>
+                                    Valorously defend the camp, Go on dangerous expeditions, 
+                                    Grow food for subsistence in other words, do everything to Survive
+                                </p>
+                                <img src="./assets/img/card-img-1.svg" alt="card-1">
+                            </div>
+                            <div class="cards__slider-line__card" id="card-2">
+                                <p>
+                                    <span class="card-title">a lot of <span>unique</span> characters</span>
+                                    <br>
+                                    Choose the character you like, take up arms and defend the Camp.
+                                    We are waiting for you, Commander!
+                                </p>
+                                <img src="./assets/img/card-img-2.png" alt="card-2">
+                            </div>
+                            <div class="cards__slider-line__card" id="card-3">
+                                <p>
+                                    <span class="card-title">collect  all artefacts</span>
+                                    <br>
+                                    collect lost artifacts and get many benefits, one of which 
+                                    is access to the first drops of our collection.
+                                </p>
+                                <img src="./assets/img/card-img-3-pager.gif" alt="card-3">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button-next" onclick="nextCard()" id="nextButton"><img src="./assets/img/point-forward.svg" alt="forward"></button>
+                </div>
+                <h4 class="camp__title section-title">camp</h4>
+                <div class="camp__point" id="expedition"><img src="./assets/img/point.png" alt="point"></div>
+                <div class="camp__point" id="farm"><img src="./assets/img/point.png" alt="point"></div>
+                <div class="camp__point" id="mastershop"><img src="./assets/img/point.png" alt="point" ></div>
+                <div class="camp__point" id="watchtower"><img src="./assets/img/point.png" alt="point"></div>
+                <div class="camp__point" id="sawmill"><img src="./assets/img/point.png" alt="point"></div>
+                <div class="camp__point" id="house"><img src="./assets/img/point.png" alt="point"></div>
+                <!-- <img src="./assets/img/point.svg" class="camp__point" id="farm" alt="point">
+                <img src="./assets/img/point.svg" class="camp__point" id="mastershop" alt="point">
+                <img src="./assets/img/point.svg" class="camp__point" id="watchtower" alt="point">
+                <img src="./assets/img/point.svg" class="camp__point" id="sawmill" alt="point">
+                <img src="./assets/img/point.svg" class="camp__point" id="house" alt="point"> -->
+                <div class="camp__point-info" id="expedition-info">
+                    <p class="camp__point-info__title">
+                        expedition
+                    </p>
+                    <p class="camp__point-info__text">
+                        sometimes the camp runs out of things that cannot be made 
+                        on their own, people had to risk themselves and go outside 
+                        the camp to find the necessary things
+                    </p>
+                </div>
+                <div class="camp__point-info" id="farm-info">
+                    <p class="camp__point-info__title">
+                        farm
+                    </p>
+                    <p class="camp__point-info__text">
+                        the lands of the sector had always been the most fertile 
+                        in the region before the catastrophe. It is good that nothing 
+                        has changed after it, and with a professional approach and 
+                        good seeds, you can harvest an excellent harvest
+                    </p>
+                </div>
+                <div class="camp__point-info" id="mastershop-info">
+                    <p class="camp__point-info__title">
+                        workshop
+                    </p>
+                    <p class="camp__point-info__text">
+                        a place where the most intelligent characters of the sector 
+                        create various parts needed to improve the camp, as well as 
+                        equipment for other characters
+                    </p>
+                </div>
+                <div class="camp__point-info" id="watchtower-info">
+                    <p class="camp__point-info__title">
+                        watchtower
+                    </p>
+                    <p class="camp__point-info__text">
+                        the watchtower is the main building in the camp. It is also 
+                        the highest, so that the sentry can notice the approach of 
+                        mobs in a timely manner and start preparing for defense
+                    </p>
+                </div>
+                <div class="camp__point-info" id="sawmill-info">
+                    <p class="camp__point-info__title">
+                        sawmill
+                    </p>
+                    <p class="camp__point-info__text">
+                        a building designed for the production of building materials. 
+                        Harvesting building materials is not an easy job, so strong, 
+                        dexterous guys are needed here
+                    </p>
+                </div>
+                <div class="camp__point-info" id="house-info">
+                    <p class="camp__point-info__title">
+                        house
+                    </p>
+                    <p class="camp__point-info__text">
+                        a building intended for the rest of the characters, as well 
+                        as for the treatment of the wounded in battle. In harsh 
+                        conditions, there are not enough beds for all, so the 
+                        heavily injured are placed in beds so that they recover 
+                        faster
+                    </p>
+                </div>
+            </section>
+            <section class="nfts" id="nfts">
+                <img 
+                    src="./assets/background/nft-background.svg" 
+                    class="section-background"
+                    id="nfts-img"
+                    alt="nfts">
+                <img src="./assets/img/nfts-paper.svg" class="nfts__paper" alt="nfts-paper">
+                <img src="./assets/img/nfts-character.png" class="nfts__character" alt="nfts-character">
+                <h4 class="nfts__title section-title">our nfts</h4>
+            </section>
+            <section class="tokenomics" id="tokenomics">
+                <h4 class="tokenomics__title section-title">tokenomics</h4>
+                <img 
+                    src="./assets/background/tokenomics-background.png" 
+                    class="section-background" 
+                    id="tokenomics-img"
+                    alt="tokenomics">
+                <img src="./assets/img/tokenomics-map.png" class="tokenomics__map" alt="token-map">
+            </section>
+            <section class="roadmap" id="roadmap">
+                <h4 class="roadmap__title section-title">roadmap</h4>
+                <img 
+                    src="./assets/background/roadmap-background.svg" 
+                    class="section-background" 
+                    id="roadmap-img"
+                    alt="roadmap">
+                <div class="roadmap__phase" id="phase-1">
+                    <img src="./assets/background/cloud-1.png" alt="phase">
+                    <h5 class="roadmap__phase__title">
+                        phase 1
+                    </h5>
+                    <p class="roadmap__phase__text">
+                        -First free drop for early supporters <br>
+                        -Website release <br>
+                        -AtomicHub and Neftyblocks <br> Collection Whitelist <br>
+                        -The first sale <br>
+                        -Big Giveaway event <br>
+                    </p>
+                </div>
+                <div class="roadmap__phase" id="phase-2">
+                    <img src="./assets/background/cloud-2.png" alt="phase">
+                    <h5 class="roadmap__phase__title">
+                        phase 2
+                    </h5>
+                    <p class="roadmap__phase__text">
+                        -drop packs needed to start the <br>
+                        game <br>
+                        -Partnership with popular <br>
+                        projects <br>
+                        -Launch game in closed beta <br>
+                        mode
+
+                    </p>
+                </div>
+                <div class="roadmap__phase" id="phase-3">
+                    <img src="./assets/background/cloud-3.png" alt="phase">
+                    <h5 class="roadmap__phase__title">
+                        phase 3
+                    </h5>
+                    <p class="roadmap__phase__text">
+                        -Game release <br>
+                        -Big Giveaway event <br>
+                        -Create our own merch project <br>
+                    </p>
+                </div>
+                <div class="roadmap__phase" id="phase-4">
+                    <img src="./assets/background/cloud-4.png" alt="phase">
+                    <h5 class="roadmap__phase__title">
+                        phase 4
+                    </h5>
+                    <p class="roadmap__phase__text">
+                        -The introduction of pvp mode in the game <br>
+                        -Conducting an online tournament of <br>
+                        players <br>
+                        -Land incorporation
+                    </p>
+                </div>
+                <footer id="contact-us">
+                    <div class="links">
+                        <h3 class="links-h3"><a href="#mainpage"><img src="./assets/logo/logo.svg" alt="logo"></a></h3>
+                        <div class="links__socials">
+                            <h4>follow us:</h4>
+                            <div class="contacts">
+                                <ul>
+                                    <li>
+                                        <img src="./assets/logo/discord.svg" alt="discord">
+                                    </li>
+                                    <li>
+                                        <img src="./assets/logo/twitter.svg" alt="twitter">
+                                    </li>
+                                    <li>
+                                        <img src="./assets/logo/telegram.svg" alt="telegram">
+                                    </li>
+                                    <li>
+                                        <img src="./assets/logo/atomichub.svg" alt="atomichub">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <div class="footer__plate" id="footer-plate">
+                    <img src="./assets/img/footer-table.svg" alt="footer-plate" class="footer__plate__img">
+                    <p>
+                        Individual Entrepreneur Mineev <br>
+                        Adress: xxxxxxxx, xx <br>
+                        Full name: Vladislav Mineev <br>
+                        Company id: xxxxxxxxx <br>
+                    </p>
+                </div>
+                <p class="footer__text">
+                    Survivor Sector@ 2022. All rights reserved. <span id="imprint">Imprint</span>
+                </p>
+            </section>
+            <div class="frame" id="frame">
+                <img 
+                src="./assets/frames/frame-1.png" 
+                alt="frame-1"
+                class="frame__img"
+                id="frame-1">
+                <img 
+                src="./assets/frames/frame-2.png" 
+                alt="frame-2"
+                class="frame__img"
+                id="frame-2">
+                <img 
+                src="./assets/frames/frame-3.png" 
+                alt="frame-3"
+                class="frame__img"
+                id="frame-3">
+                <img 
+                src="./assets/frames/frame-4.png" 
+                alt="frame-4"
+                class="frame__img"
+                id="frame-4">
+            </div>
+        </main>
+        
+    </div>
+    <script src="./js/slider.js"></script>
+    <script src="./js/pointers-info.js"></script>
+    <script src="./js/clouds.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/plate.js"></script>
+    <script src="./js/imprint.js"></script>
+    <script src="./js/frames.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+</html>

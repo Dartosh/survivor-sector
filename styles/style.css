@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #331c07;
+    font-family: Bangers;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFE166;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+    color: #EB7101;
+}
+
+.wrapper {
+    max-width: 1900px;
+    display: flex;
+    justify-content: center;
+    /* height: 7034px; */
+    background-size: contain; 
+
+    margin: auto;
+}

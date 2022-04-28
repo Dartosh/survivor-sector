@@ -1,0 +1,736 @@
+/*      320-479px      */
+@media (min-width: 320px) and (max-width: 479px) { 
+    header {
+        font-size: 18px;
+    }
+}
+
+/*      480-599px      */
+@media (min-width: 480px) and (max-width: 599px) {
+    header {
+        font-size: 18px;
+    }
+}
+
+/*      600-767px      */
+@media (min-width: 600px) and (max-width: 767px) {
+    header {
+        font-size: 14px;
+    }
+
+    h1 img{
+        height: 20px;
+    }
+
+    .contacts ul li {
+        margin: 0 0;
+    }
+
+    ul li img {
+        height: 22px;
+    }
+
+    .mainpage__title-block h2 {
+        font-size: 68px;
+        line-height: 72px;
+    }
+
+    .mainpage__title-block h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .cards__slider-line__card p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .camp__point-info__title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .camp__point-info__text {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    #farm-info .camp__point-info__text,
+    #house-info .camp__point-info__text {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .roadmap__phase__title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .roadmap__phase__text {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    #phase-1 .roadmap__phase__text {
+        top: 30%;
+        left: 23%;
+    }
+
+    #phase-2 .roadmap__phase__title {
+        top: 13%;
+        left: 32%;
+    }
+    #phase-2 .roadmap__phase__text {
+        top: 28%;
+        left: 13%;
+    }
+
+    #phase-4 .roadmap__phase__text {
+        top: 34%;
+        left: 15%;
+    }
+    #phase-4 .roadmap__phase__title {
+        top: 15%;
+        left: 37%;
+    }
+
+    #phase-3 .roadmap__phase__text {
+        top: 32%;
+        left: 20%;
+    }
+
+    /* .footer__plate img {
+        height: 100px;
+    } */
+
+    .footer__plate p {
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .footer__text {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    /* .links-h3 img {
+        height: 80px;
+    } */
+
+    .links__socials h4 {
+        padding: 0 0 0 0px;
+        font-size: 26px;
+        line-height: 38px;
+    }
+}
+
+/*      768-899px      */
+@media /* (min-width: 768px) and */ (max-width: 899px) {
+    header {
+        font-size: 18px;
+    }
+
+    h1 img{
+        height: 32px;
+    }
+
+    .contacts ul li {
+        margin: 0 0;
+    }
+
+    ul li img {
+        height: 30px;
+    }
+
+    .mainpage__title-block h2 {
+        font-size: 86px;
+        line-height: 90px;
+    }
+
+    .mainpage__title-block h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .cards__slider-line__card p {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .section-title {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .camp__point-info__title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .camp__point-info__text {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    #farm-info .camp__point-info__text,
+    #house-info .camp__point-info__text {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .roadmap__phase__title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .roadmap__phase__text {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    #phase-1 .roadmap__phase__text {
+        top: 30%;
+        left: 23%;
+    }
+
+    #phase-2 .roadmap__phase__title {
+        top: 13%;
+        left: 32%;
+    }
+    #phase-2 .roadmap__phase__text {
+        top: 28%;
+        left: 13%;
+    }
+
+    #phase-4 .roadmap__phase__text {
+        top: 34%;
+        left: 15%;
+    }
+    #phase-4 .roadmap__phase__title {
+        top: 15%;
+        left: 37%;
+    }
+
+    #phase-3 .roadmap__phase__text {
+        top: 32%;
+        left: 20%;
+    }
+
+    /* .footer__plate img {
+        height: 110px;
+    } */
+
+    .footer__plate p {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .footer__text {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    /* .links-h3 img {
+        height: 90px;
+    } */
+
+    .links__socials h4 {
+        padding: 0 0 0 4px;
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+/*      900-1023px      */
+@media (min-width: 900px)and (max-width: 1023px) {
+    header {
+        font-size: 22px;
+    }
+
+    h1 img{
+        height: 36px;
+    }
+
+    .contacts ul li {
+        margin: 0 0;
+    }
+
+    ul li img {
+        height: 34px;
+    }
+
+    .mainpage__title-block h2 {
+        font-size: 102px;
+        line-height: 106px;
+    }
+
+    .mainpage__title-block h3 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .cards__slider-line__card p {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .section-title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .camp__point-info__title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .camp__point-info__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #farm-info .camp__point-info__text,
+    #house-info .camp__point-info__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .roadmap__phase__title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .roadmap__phase__text {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    #phase-1 .roadmap__phase__text {
+        top: 30%;
+        left: 23%;
+    }
+
+    #phase-2 .roadmap__phase__title {
+        top: 13%;
+        left: 32%;
+    }
+    #phase-2 .roadmap__phase__text {
+        top: 28%;
+        left: 13%;
+    }
+
+    #phase-4 .roadmap__phase__text {
+        top: 34%;
+        left: 15%;
+    }
+    #phase-4 .roadmap__phase__title {
+        top: 15%;
+        left: 37%;
+    }
+
+    #phase-3 .roadmap__phase__text {
+        top: 32%;
+        left: 20%;
+    }
+
+    /* .footer__plate img {
+        height: 120px;
+    } */
+
+    .footer__plate p {
+        font-size: 7px;
+        line-height: 8px;
+    }
+
+    .footer__text {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    /* .links-h3 img {
+        height: 100px;
+    } */
+
+    .links__socials h4 {
+        padding: 0 0 0 4px;
+        font-size: 32px;
+        line-height: 34px;
+    }
+}
+
+/*      1024-1199px      */
+@media (min-width: 1024px)and (max-width: 1199px) {
+    header {
+        font-size: 26px;
+    }
+
+    h1 img{
+        height: 46px;
+    }
+
+    .contacts ul li {
+        margin: 0 4px;
+    }
+
+    ul li img {
+        height: 40px;
+    }
+
+    .mainpage__title-block h2 {
+        font-size: 116px;
+        line-height: 120px;
+    }
+
+    .mainpage__title-block h3 {
+        font-size: 44px;
+        line-height: 48px;
+    }
+
+    .cards__slider-line__card p {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .section-title {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .camp__point-info__title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .camp__point-info__text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #farm-info .camp__point-info__text,
+    #house-info .camp__point-info__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .roadmap__phase__title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .roadmap__phase__text {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    #phase-1 .roadmap__phase__text {
+        top: 30%;
+        left: 23%;
+    }
+
+    #phase-2 .roadmap__phase__title {
+        top: 13%;
+        left: 32%;
+    }
+    #phase-2 .roadmap__phase__text {
+        top: 28%;
+        left: 13%;
+    }
+
+    #phase-4 .roadmap__phase__text {
+        top: 34%;
+        left: 15%;
+    }
+    #phase-4 .roadmap__phase__title {
+        top: 15%;
+        left: 37%;
+    }
+
+    #phase-3 .roadmap__phase__text {
+        top: 32%;
+        left: 20%;
+    }
+
+    /* .footer__plate img {
+        height: 135px;
+    } */
+
+    .footer__plate p {
+        font-size: 7px;
+        line-height: 7px;
+    }
+
+    .footer__text {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    /* .links-h3 img {
+        height: 100px;
+    } */
+
+    .links__socials h4 {
+        padding: 0 0 0 8px;
+        font-size: 32px;
+        line-height: 34px;
+    }
+}
+
+/*      1200-1600px      */
+/* ПРАВКИ */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    header {
+        font-size: 32px;
+    }
+
+    h1 img{
+        height: 54px;
+    }
+
+    .contacts ul li {
+        margin: 0 6px;
+    }
+
+    ul li img {
+        height: 44px;
+    }
+
+    .mainpage__title-block h2 {
+        font-size: 135px;
+        line-height: 140px;
+    }
+
+    .mainpage__title-block h3 {
+        font-size: 52px;
+        line-height: 56px;
+    }
+
+    .cards__slider-line__card p {
+        font-size: 46px;
+        line-height: 50px;
+    }
+
+    .section-title {
+        font-size: 58px;
+        line-height: 62px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1429px) {
+    .camp__point-info__title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .camp__point-info__text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #farm-info .camp__point-info__text,
+    #house-info .camp__point-info__text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .roadmap__phase__title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .roadmap__phase__text {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    #phase-4 {
+        left: 68%;
+    }
+    #phase-4 .roadmap__phase__title {
+        top: 15%;
+        left: 35%;
+    }
+    #phase-4 .roadmap__phase__text {
+        top: 30%;
+        left: 13%;
+    }
+
+    #phase-3 .roadmap__phase__text {
+        top: 28%;
+        left: 20%;
+    }
+
+    /* .footer__plate img {
+        height: 150px;
+    } */
+
+    .footer__plate p {
+        font-size: 9px;
+    }
+
+    .footer__text {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    /* .links-h3 img {
+        height: 110px;
+    } */
+
+    .links__socials h4 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+}
+
+@media (min-width: 1430px) and (max-width: 1600px) {
+    .camp__point-info__title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .camp__point-info__text {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    #farm-info .camp__point-info__text,
+    #house-info .camp__point-info__text {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .roadmap__phase__title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .roadmap__phase__text {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    #phase-4 {
+        left: 68%;
+    }
+    #phase-4 .roadmap__phase__title {
+        top: 15%;
+        left: 35%;
+    }
+    #phase-4 .roadmap__phase__text {
+        top: 30%;
+        left: 13%;
+    }
+
+    /* .footer__plate img {
+        height: 170px;
+    } */
+
+    .footer__plate p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .footer__text {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    /* .links-h3 img {
+        height: 120px;
+    } */
+    
+    .links__socials h4 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+}
+
+/*      >1600px      */
+@media (min-width: 1600px) {
+    header {
+        font-size: 36px;
+    }
+
+    h1 img{
+        height: 64px;
+    }
+
+    ul li img {
+        height: 56px;
+    }
+
+    .mainpage__title-block h2 {
+        font-size: 150px;
+        line-height: 160px;
+    }
+
+    .mainpage__title-block h3 {
+        font-size: 60px;
+        line-height: 64px;
+    }
+
+    .cards__slider-line__card p {
+        font-size: 55px;
+        line-height: 59px;
+    }
+
+    .section-title {
+        font-size: 70px;
+        line-height: 74px;
+    }
+
+    .camp__point-info__title {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .camp__point-info__text {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    #farm-info .camp__point-info__text,
+    #house-info .camp__point-info__text {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .roadmap__phase__title {
+        font-size: 40px;
+        line-height: 43px;
+    }
+
+    .roadmap__phase__text {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    /* .footer__plate img {
+        height: 200px;
+    } */
+
+    .footer__plate p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer__text {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    /* .links-h3 img {
+        height: 140px;
+    } */
+
+    .links__socials h4 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+}

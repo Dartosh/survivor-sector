@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Bangers';
+    src: url('../assets/fonts/Bangers-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Bangers-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comic Neue';
+    src: url('../assets/fonts/ComicNeue-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ComicNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comic Neue';
+    src: url('../assets/fonts/ComicNeue-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ComicNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

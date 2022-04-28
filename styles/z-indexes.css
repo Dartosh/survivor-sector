@@ -1,0 +1,34 @@
+#frame {
+    z-index: 5;
+}
+
+.mainpage__title-block,
+.cards,
+.camp__title,
+section-title,
+.nfts__paper,
+.nfts__title
+.tokenomics__title,
+.tokenomics__title,
+.tokenomics__map,
+.roadmap__title,
+footer {
+    z-index: 10;
+}
+
+.camp__point,
+.nfts__character,
+.roadmap__phase,
+.footer__plate,
+.footer__text {
+    z-index: 15;
+}
+
+.camp__point-info,
+#imprint {
+    z-index: 20;
+}
+
+header {
+    z-index: 100;
+}
